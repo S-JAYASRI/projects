@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(95, 221, 221);
+
+}
+.main-container {
+    height: 40vh;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: antiquewhite;
+    border-radius: 7px;
+
+}
+
+.main-container h2 {
+    font-size: 1.5em;
+    font-family: cursive;
+    text-align: center;
+    padding: 0.5em;
+}
+.main-content input {
+    height: 5vh;
+    width: 23vw;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.main-content button {
+    margin-top: 4%;
+    height: 5vh;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    margin-left: 23.5%;
+    font-size: 1em;
+    background-color:rgb(78, 220, 220);
+}
+
+.result h3 {
+    font-family: cursive;
+    text-align: center;
+}
