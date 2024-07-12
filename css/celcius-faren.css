@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(236, 120, 178) ;
+}
+.main-box{
+    height: 43vh;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(106, 106, 220);
+}
+
+.main-box h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.input input {
+    height: 5vh;
+    width: 23vw;
+    margin-top: 5%;
+    margin-left: 9.5%;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+.input button {
+    margin-top: 5%;
+    height: 5vh;
+    width: 14vw;
+    background-color:rgb(236, 120, 178);
+    margin-left: 24%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.ans h3 {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+}
