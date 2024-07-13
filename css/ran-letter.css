@@ -12,6 +12,10 @@ body {
 .main-box {
     height: 40vh;
     width: 35vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
     background-color: antiquewhite;
     border-radius: 7px;
 }
