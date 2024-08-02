@@ -10,7 +10,7 @@ function convertUnits() {
     else if(input>50 && input<=150) {
         rate = (50 * 0.75) + (input - 50) * 1;
     }
-    else if (input>150 && input<=200) {
+    else if (input>150 && input<=250) {
         rate = (50 * 0.75) + (100 * 1) + (input - 150) * 1.30;
     }
     else {
