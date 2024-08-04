@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.main-box {
+    height: 40vh;
+    width: 30vw;
+    background-color:cornflowerblue;
+    border-radius: 7px;
+}
+
+.main-box h2{
+    text-align: center;
+    padding: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main-box select{
+    height: 5vh;
+    width: 20vw;
+    margin-left: 15%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-box button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    height: 5vh;
+    width: 15vw;
+    margin-left: 23%;
+    margin-top: 5%;
+    font-weight: 600;
+
+    
+}
