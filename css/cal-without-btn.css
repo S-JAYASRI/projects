@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 156, 156);
+}
+
+.box {
+    height: 30vh;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(100, 206, 206);
+}
+
+.box h2 {
+    text-align: center;
+    padding: 0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input-box input{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.input-box > #operand-1 {
+    margin-left: 13%;
+}
+
+.input-box > #operand-2 {
+    margin-left: 3%;
+}
+
+.input-box > #select {
+    margin-left: 5%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box  h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
