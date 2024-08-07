@@ -20,14 +20,19 @@
         let newArr = new Set(arr)
         console.log(newArr);
 
-        //print positive numbers use methods
+        //print positive numbers use methods 
+        //and find the sum of positive numbers only
         let values = [6,-5,-7,1,2,3,-3,0,-8,4,8,6,-1];
 
         let oriVal = values.filter(x => x>0)
         console.log(oriVal);
 
-        //To print the first letter of names
-        // let name = ["Robert","Andrew","Mathew"];
+        //Abbreviate by gathering first letter of each word
+        let name = "Robert Andrew Mathew";
+        let firstLet = name.split(" ").reduce((old,new) => {
+            return old+new.chartAt(0)
+        )};
+        // console.log(firstLet)
 
         
 
