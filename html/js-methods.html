@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>forEach-filter-ap-set-reduce-methods</title>
 </head>
 <style>
     h2 {
@@ -14,10 +14,24 @@
     <h2>Check in console</h2>
 
     <script>
+        //Remove duplicate values from arr;
         let arr = [1,2,3,5,3,1,8,7,5,6,7,];
 
         let newArr = new Set(arr)
         console.log(newArr);
+
+        //print positive numbers use methods
+        let values = [6,-5,-7,1,2,3,-3,0,-8,4,8,6,-1];
+
+        let oriVal = values.filter(x => x>0)
+        console.log(oriVal);
+
+        //To print the first letter of names
+        // let name = ["Robert","Andrew","Mathew"];
+
+        
+
+        
     </script>
 </body>
 </html>
